@@ -1,0 +1,11 @@
+PatientID,Age,Gender,Diagnosis,Treatment,Outcome,Hospital Stay Days,Cost,Notes
+1,35,Male,Flu,Rest,Recovered,5,1200,Mild case
+2,60,Female,Pneumonia,Antibiotics,Recovered,10,3500,
+3,42,Female,Diabetes,Insulin,,15,5000,Requires ongoing care
+4,28,Male,Sprain,Rest,Recovered,3,800,Sports injury
+5,75,Male,Heart Disease,Surgery,Recovered,20,15000,
+6,50,Female,,Medication,Recovered,7,2000,Follow-up needed
+7,19,Male,Appendicitis,Surgery,Recovered,4,7000,Emergency
+8,68,Female,Arthritis,,Recovered,9,3000,Chronic condition
+9,30,Male,Common Cold,Rest,Recovered,2,300,
+10,55,Female,Hypertension,Medication,Recovered,8,1800;

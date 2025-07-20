@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  data_pipeline:
+    build: .
+    volumes:
+      # Mount the local 'data' directory to '/app/data' inside the container.
+      # This allows the container to read input CSV and write output CSV to your host machine.
+      - ./data:/app/data
+    # Command to execute when the service starts
+    command: python app/pipeline.py
+    # Optional: If you want to keep the container running for inspection after the script finishes
+    # remove or comment out the 'command' line above and use 'stdin_open: true' and 'tty: true'
+    # stdin_open: true # Keep stdin open even if not attached
+    # tty: true        # Allocate a pseudo-TTY
